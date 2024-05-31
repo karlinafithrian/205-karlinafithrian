@@ -59,7 +59,7 @@
                   </ul>
                 </div>
                 <div class="btn-part">
-                  <a class="readon btn-text buy-big small" href="{{('login')}}">
+                  <a class="readon btn-text buy-big small" href="{{('order')}}">
                     <span>Buy Now</span>
                   </a>
                 </div>

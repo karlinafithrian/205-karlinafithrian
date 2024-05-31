@@ -36,6 +36,8 @@ Route::get('pricing_plan', [FrontendController::class,'pricing_plan']);
 Route::get('faqs', [FrontendController::class,'faqs']);
 Route::get('sponsors', [FrontendController::class,'sponsors']);
 Route::get('contact', [FrontendController::class,'contact']);
+Route::get('order', [FrontendController::class,'order']);
+
 
 // Route::get('index1', [UserController::class,'index1']);
 // Route::get('about1', [UserController::class,'about1']);
@@ -54,8 +56,9 @@ Route::get('/register', [UserController::class,'register'])->name('register');
 Route::post('/postregister', [UserController::class,'postregister'])->name('postregister');
 
 
-Route::get('ticket', [TicketController::class,'ticket'])->name('ticket');
-Route::post('ticket/{id}/update',[TicketController::class,'update']);
+// Route::get('ticket', [TicketController::class,'ticket'])->name('ticket');
+// Route::post('ticket/{id}/update',[TicketController::class,'update']);
+
 
 // Route::get('createticket', [TicketController::class,'createticket']);
 // Route::post('postcreateticket', [TicketController::class,'postcreateticket'])->name('postcreateticket');
